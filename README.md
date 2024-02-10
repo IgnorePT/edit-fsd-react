@@ -11,7 +11,7 @@ Para realizarem os exercicios podem clonar o repositorio para o vosso ambiente d
 Todos os exercicios irão ter uma possivel solução para eles numa branch aparte com o branch name de `solucao`
 
 ### UseState
-- Counter: (https://github.com/IgnorePT/ex-counter)[https://github.com/IgnorePT/ex-counter]
+- Counter: [https://github.com/IgnorePT/ex-counter](https://github.com/IgnorePT/ex-counter)
 - Modal
 
 
