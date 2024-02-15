@@ -34,7 +34,7 @@ const twiterMessage = {
 
 ### Notas
 
-Lembra-te que a tag tag `<article>` pode possuir estrututras como o `<header>` e `<footer>` para uma representação semantica e optimizada para SEO.
+Lembra-te que a tag `<article>` pode possuir estrututras como o `<header>` e `<footer>` para uma representação semantica e optimizada para SEO.
 
 ### Recursos extra
 

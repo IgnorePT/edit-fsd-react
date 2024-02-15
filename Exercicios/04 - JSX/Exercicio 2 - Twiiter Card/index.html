@@ -1,17 +1,55 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercicio 2 - Twitter Card</title>
-</head>
-<body>
 
-    <div id="root"></div>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Exercicio 2 - Twitter Card</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
 
-    <script src="https://unpkg.com/react@18.2.0/umd/react.development.js"></script>
-    <script src="https://unpkg.com/react-dom@18.2.0/umd/react-dom.development.js"></script>
+	<body>
+		<div id="root">Nada</div>
 
-     <!-- Trabalhar aqui! -->
+		<script src="https://unpkg.com/react@18.2.0/umd/react.development.js"></script>
+		<script src="https://unpkg.com/react-dom@18.2.0/umd/react-dom.development.js"></script>
+		<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 
-</body>
+		<!-- Trabalhar aqui! -->
+		<script type="text/babel">
+			const twiterMessage = {
+				author: {
+					avatarSrc:
+						"https://avataaars.io/?avatarStyle=Transparent&topType=ShortHairTheCaesarSidePart&accessoriesType=Sunglasses&hairColor=BrownDark&facialHairType=BeardLight&facialHairColor=Black&clotheType=BlazerShirt&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Light",
+					avatarDescription: "Cartoon Men",
+					name: "Nelson Fernandes",
+					handle: "nelsonfernandes",
+				},
+				content:
+					"Os últimos serão os primeiros e os do meio sempre serão os do meio.",
+				published: "15 de Janeiro as 9:45pm",
+			};
+
+			const TwitterCard = ({ message }) => {
+				const { author, content, published } = message;
+
+				return (
+					<article>
+						<header>
+							<img src={author.avatarSrc}></img>
+							<a href={`user/${author.handle}`}>{author.name}</a>
+						</header>
+						<p>{content}</p>
+						<footer>{published}</footer>
+					</article>
+				);
+			};
+
+			const root = document.getElementById("root");
+			const main = ReactDOM.createRoot(root);
+
+			//Forma de utilizarmos um componente é utilizano como TAG
+			main.render(<TwitterCard message={twiterMessage} />);
+		</script>
+	</body>
+
 </html>
