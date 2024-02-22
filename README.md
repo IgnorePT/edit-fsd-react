@@ -3,8 +3,9 @@
 Bemvindos ao repositioro de Full Stack React aqui poderão encontrar todo o material de apoio dados nas aulas assim como Enunciados de Exercicios, Recursos, etc.
 
 ## Exemplos & Exercicios de Aulas
-- [https://github.com/IgnorePT/exemplo-componentes-vite](https://github.com/IgnorePT/exemplo-componentes-vite)
-- [https://github.com/IgnorePT/ex-lightswitch](https://github.com/IgnorePT/ex-lightswitch)
+- [https://github.com/IgnorePT/exemplo-componentes-vite](https://github.com/IgnorePT/exemplo-componentes-vite) - componentes
+- [https://github.com/IgnorePT/ex-lightswitch](https://github.com/IgnorePT/ex-lightswitch) -  useState()
+- [https://github.com/IgnorePT/shopping-cart-menu](https://github.com/IgnorePT/shopping-cart-menu) - useEffect()
 
 ## Exercicios
 Para realizarem os exercicios podem clonar o repositorio para o vosso ambiente de desenvolvimento resolverem o exercicio e fazerem commit para os vossos repositorios.
