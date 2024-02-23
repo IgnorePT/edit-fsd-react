@@ -7,6 +7,7 @@ Bemvindos ao repositioro de Full Stack React aqui poderão encontrar todo o mate
 - [https://github.com/IgnorePT/ex-lightswitch](https://github.com/IgnorePT/ex-lightswitch) -  useState()
 - [https://github.com/IgnorePT/lift-state-example](https://github.com/IgnorePT/lift-state-example) . useState() / Lift State
 - [https://github.com/IgnorePT/shopping-cart-menu](https://github.com/IgnorePT/shopping-cart-menu) - useEffect()
+- [https://github.com/IgnorePT/react-router-dom-example](https://github.com/IgnorePT/react-router-dom-example) - React Router DOM
 
 ## Exercicios
 Para realizarem os exercicios podem clonar o repositorio para o vosso ambiente de desenvolvimento resolverem o exercicio e fazerem commit para os vossos repositorios.
