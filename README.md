@@ -8,6 +8,8 @@ Bemvindos ao repositioro de Full Stack React aqui poderão encontrar todo o mate
 - [https://github.com/IgnorePT/lift-state-example](https://github.com/IgnorePT/lift-state-example) . useState() / Lift State
 - [https://github.com/IgnorePT/shopping-cart-menu](https://github.com/IgnorePT/shopping-cart-menu) - useEffect()
 - [https://github.com/IgnorePT/react-router-dom-example](https://github.com/IgnorePT/react-router-dom-example) - React Router DOM
+- [https://github.com/IgnorePT/simple-contex-api-example](https://github.com/IgnorePT/simple-contex-api-example) - Context API - Exemplo simples (Aula Online)
+- [https://github.com/IgnorePT/context-api-example](https://github.com/IgnorePT/context-api-example) - Context API - Exemplo mais completo (Aula Online)
 
 ## Exercicios
 Para realizarem os exercicios podem clonar o repositorio para o vosso ambiente de desenvolvimento resolverem o exercicio e fazerem commit para os vossos repositorios.
