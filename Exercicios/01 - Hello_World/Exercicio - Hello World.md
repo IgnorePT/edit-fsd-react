@@ -13,3 +13,16 @@ Replica a seguinte estrutura utilizando os metodos de React & ReactDOM (`createE
     <div class="cubo"></div>
 </div>
 ```
+
+```js
+const elemento = React.createElement(
+	"h1",
+	{
+		id: "cenas",
+		title: "Cenas maaradas",
+	},
+	"Conteudo do H1",
+	React.createElement("button", {}, "Btn")
+);
+
+```
